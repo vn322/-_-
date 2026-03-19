@@ -1,3 +1,4 @@
+https://chat.deepseek.com/share/i7iytiz2dewxck3xpe
 
 1). Математический анализ:
 
