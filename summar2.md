@@ -105,7 +105,7 @@ $|\cup A_i| = \sum |A_i| - \sum |A_i \cap A_j| + \dots$
 | **Вычет** | $\(\text{Res}_{z=a} f(z)=c_{-1})$ |
 | **Теорема о вычетах** | $\oint_{\gamma} f(z) \, dz = 2\pi i \sum \text{Res}$ |
 
-$\(\text{Res}_{z=a} f(z)=c_{-1})$
+$$\(\text{Res}_{z=a} f(z)=c_{-1})$$
 
 ## 3.2. Функциональный анализ
 
