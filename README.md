@@ -47,8 +47,8 @@ https://chat.deepseek.com/share/i7iytiz2dewxck3xpe
 
 7). Математический анализ:
 
-1.	Теоремы Ферма и Ролля.
-2.	Теоремы Лагранжа и Коши.
+1.	Теоремы Ферма и Ролля. [D](https://github.com/vn322/-_-/blob/main/7.1a.md) [Q](https://github.com/vn322/-_-/blob/main/7.1b.md)
+2.	Теоремы Лагранжа и Коши. [D](https://github.com/vn322/-_-/blob/main/7.2a.md) [Q](https://github.com/vn322/-_-/blob/main/7.2b.md)
 
  8). Дифференциальные уравнения:
 
