@@ -357,7 +357,9 @@ $\phi_X(t)=E[e^{itX}]$
 
 Функция правдоподобия: $L(\theta)=\prod_{i=1}^n f(x_i;\theta)$
 
-Оценка максимального правдоподобия (ОМП): $\hat{\theta}_{\text{МП}} = \arg\max\limits_{\theta} L(\theta)$
+Оценка максимального правдоподобия (ОМП): 
+
+$$\hat{\theta}_{\text{МП}} = \arg\max\limits_{\theta} L(\theta)$$
 
 **5.12. Проверка статистических гипотез**
 
@@ -524,7 +526,9 @@ $c_n = \frac{1}{2\pi i}\oint_\gamma \frac{f(z)}{(z-z_0)^{n+1}}dz$
 
 $W^{k,p}(\Omega) = \{ u\in L^p(\Omega) : D^\alpha u \in L^p(\Omega),\ |\alpha|\le k \}$
 
-Норма: $\|u\|_{W^{k,p}} = \left( \sum_{|\alpha|\le k} \|D^\alpha u\|_{L^p}^p \right)^{1/p}$
+Норма:
+
+$$\|u\|_{W^{k,p}} = \left( \sum_{|\alpha|\le k} \|D^\alpha u\|_{L^p}^p \right)^{1/p}$$
 
 Теорема вложения Соболева: $W^{k,p}(\Omega) \hookrightarrow C^{m,\alpha}(\Omega)$ при $kp > n + m\alpha$
 
