@@ -1,3 +1,4 @@
+https://chat.deepseek.com/a/chat/s/c6683299-5bad-415a-a5cc-98fd08f66101
 https://chat.deepseek.com/share/i7iytiz2dewxck3xpe
 
 1). Математический анализ:
