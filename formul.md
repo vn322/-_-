@@ -1,3 +1,4 @@
+https://chat.deepseek.com/a/chat/s/c6683299-5bad-415a-a5cc-98fd08f66101 
 **1.1. Предел, непрерывность, производная**
 
 $\lim_{x \to a} f(x) = L \;\Leftrightarrow\; \forall \varepsilon>0\;\exists \delta>0:\; 0<|x-a|<\delta \Rightarrow |f(x)-L|<\varepsilon$
