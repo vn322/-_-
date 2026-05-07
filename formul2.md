@@ -193,15 +193,17 @@ LU-разложение: $A = LU$. Алгоритм: $u_{ij} = a_{ij} - \sum_{k=
 
 Нормы: Векторные: 
 
-$\|x\|_1 = \sum |x_i|$,  $\|x\|_2 = \sqrt{\sum x_i^2}$,  $\|x\|_\infty = \max |x_i|$. 
+$\|x\|_1 = \sum |x_i|$,  $\|x\|_2 = \sqrt{\sum x_i^2}$,  
+
+$\|x\|_\infty = \max |x_i|$ 
 
 Матричные: 
 
-$\|A\|_1 = \max_j \sum_i |a_{ij}|$, 
+$\|A\|_1 = \max_j \sum_i |a_{ij}|$ 
 
-$\|A\|_\infty = \max_i \sum_j |a_{ij}|$, 
+$\|A\|_\infty = \max_i \sum_j |a_{ij}|$ 
 
-$\|A\|_2 = \sqrt{\lambda_{\max}(A^T A)}$. 
+$\|A\|_2 = \sqrt{\lambda_{\max}(A^T A)}$ 
 
 Свойство: $\|Ax\| \le \|A\|\|x\|$.
 
