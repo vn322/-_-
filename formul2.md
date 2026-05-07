@@ -117,11 +117,17 @@ $\sum a_n$ абсолютно сходится $\iff \sum |a_n| < \infty$. Ус�
 
 ### 5. Уравнения математической физики
 
-Пространство Соболева $W^{k,p}(\Omega) = \{ u \in L^p(\Omega) : D^\alpha u \in L^p(\Omega), \ |\alpha| \le k \}$. Норма: $\|u\|_{W^{k,p}} = \left( \sum_{|\alpha|\le k} \|D^\alpha u\|_{L^p}^p \right)^{1/p}$. $D^\alpha$ — слабая производная. $H^k = W^{k,2}$.
+Пространство Соболева $W^{k,p}(\Omega) = \{ u \in L^p(\Omega) : D^\alpha u \in L^p(\Omega), \ |\alpha| \le k \}$. Норма: 
+
+$\|u\|_{W^{k,p}} = \left( \sum_{|\alpha|\le k} \|D^\alpha u\|_{L^p}^p \right)^{1/p}$. $D^\alpha$ — слабая производная. $H^k = W^{k,2}$.
 
 Теорема вложения: 1) Если $kp > n$, то $W^{k,p}(\Omega) \hookrightarrow C^m(\bar{\Omega})$ для $m < k - n/p$. 2) Если $kp < n$, то $W^{k,p}(\Omega) \hookrightarrow L^q(\Omega)$ для $1 \le q \le np/(n-kp)$ (компактное вложение при ограниченной области).
 
-Эллиптическая задача: $-\nabla \cdot (A \nabla u) + c u = f$ в $\Omega$, $u|_{\partial\Omega} = g$. Обобщенное решение: $u \in H^1_0(\Omega): \int_\Omega (A\nabla u \cdot \nabla v + c u v) dx = \int_\Omega f v dx \ \forall v \in H^1_0(\Omega)$. Теорема Лакса-Мильграма гарантирует единственную разрешимость. Гладкость: если $f \in H^s$, то $u \in H^{s+2}$. Задача на собственные значения: $-\Delta u = \lambda u$, $u|_{\partial\Omega}=0$. $\exists$ дискретный спектр $0 < \lambda_1 \le \lambda_2 \le \dots \to \infty$, $\{u_k\}$ ортонормированы в $L^2$.
+Эллиптическая задача: $-\nabla \cdot (A \nabla u) + c u = f$ в $\Omega$, $u|_{\partial\Omega} = g$. Обобщенное решение: 
+$u \in H^1_0(\Omega): \int_\Omega (A\nabla u \cdot \nabla v + c u v) dx = \int_\Omega f v dx \ \
+forall v \in H^1_0(\Omega)$. 
+
+Теорема Лакса-Мильграма гарантирует единственную разрешимость. Гладкость: если $f \in H^s$, то $u \in H^{s+2}$. Задача на собственные значения: $-\Delta u = \lambda u$, $u|_{\partial\Omega}=0$. $\exists$ дискретный спектр $0 < \lambda_1 \le \lambda_2 \le \dots \to \infty$, $\{u_k\}$ ортонормированы в $L^2$.
 
 Метод Фурье для смешанной задачи: $u(x,t) = \sum_{k=1}^\infty T_k(t) X_k(x)$. $X_k$ — собственные функции оператора Лапласа с граничными условиями. $T_k(t)$ находятся из ОДУ для временной части с начальными условиями, разложенными по $\{X_k\}$.
 
