@@ -116,7 +116,7 @@ $\dot{V}(\vec{x}) = \nabla V \cdot \vec{f}(\vec{x}) \le 0 \Rightarrow$ усто�
 Теорема Ляпунова. $V(\vec{x}) > 0$ — функция Ляпунова.
 
 
-$$\exists V: V(0)=0, \dot{V}>0$ в области $\Omega \ni 0 \Rightarrow$$ 
+$\exists V: V(0)=0, \dot{V}>0$ в области $\Omega \ni 0 \Rightarrow$ 
 
 неустойчивость.Теорема Четаева. $\Omega$ — область, где $V>0$.
 
