@@ -106,8 +106,8 @@ $y' = f(x,y), \, y(x_0)=y_0$.
 
 $y'' + p(x)y' + q(x)y = 0$. 
 
-$W(y_1,y_2)(x) = \det\begin{pmatrix} y_1 & y_2 \\ 
-y_1' & y_2' \end{pmatrix} \neq 0$.
+$$W(y_1,y_2)(x) = \det\begin{pmatrix} y_1 & y_2 \\ 
+y_1' & y_2' \end{pmatrix} \neq 0$$
 
 Линейное однородное уравнение 2-го порядка. $W$ — определитель Вронского.
 
@@ -116,8 +116,9 @@ $\dot{V}(\vec{x}) = \nabla V \cdot \vec{f}(\vec{x}) \le 0 \Rightarrow$ усто�
 Теорема Ляпунова. $V(\vec{x}) > 0$ — функция Ляпунова.
 
 
-$\exists V: V(0)=0, \dot{V}>0$ в области $\Omega \ni 0 \Rightarrow$ неустойчивость.
-Теорема Четаева. $\Omega$ — область, где $V>0$.
+$$\exists V: V(0)=0, \dot{V}>0$ в области $\Omega \ni 0 \Rightarrow$$ 
+
+неустойчивость.Теорема Четаева. $\Omega$ — область, где $V>0$.
 
 
 $a(x,u)\frac{\partial u}{\partial x} + b(x,u)\frac{\partial u}{\partial y} = c(x,u)$.
