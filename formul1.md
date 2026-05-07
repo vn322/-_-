@@ -104,7 +104,8 @@ $y' = f(x,y), \, y(x_0)=y_0$.
 Задача Коши. $\exists!$ решение, если $f, \partial f/\partial y$ непрерывны в окрестности $(x_0,y_0)$.
 
 
-$y'' + p(x)y' + q(x)y = 0$. $W(y_1,y_2)(x) = \det\begin{pmatrix} y_1 & y_2 \\ y_1' & y_2' \end{pmatrix} \neq 0$.
+$y'' + p(x)y' + q(x)y = 0$. $W(y_1,y_2)(x) = \det\begin{pmatrix} y_1 & y_2 \\ 
+y_1' & y_2' \end{pmatrix} \neq 0$.
 Линейное однородное уравнение 2-го порядка. $W$ — определитель Вронского.
 
 
