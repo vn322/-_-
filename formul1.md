@@ -125,7 +125,10 @@ $a(x,u)\frac{\partial u}{\partial x} + b(x,u)\frac{\partial u}{\partial y} = c(x
 Квазилинейное УрЧП 1-го порядка. Решение: система характеристик $\frac{dx}{a} = \frac{dy}{b} = \frac{du}{c}$.
 
 
-$-\Delta u = f$ в $\Omega, \, u|_{\partial\Omega}=g$. $\int_\Omega \nabla u \cdot \nabla v \, dx = \int_\Omega f v \, dx$.
+$-\Delta u = f$ в 
+
+$$\Omega, \, u|_{\partial\Omega}=g$. $\int_\Omega \nabla u \cdot \nabla v \, dx = \int_\Omega f v \, dx$$
+
 Эллиптическая задача. Разрешимость: теорема Фредгольма. Гладкость: $u \in H^{s+2}$ при $f \in H^s$.
 
 
