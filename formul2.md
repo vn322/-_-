@@ -191,7 +191,9 @@ $$\hat{\theta}_{MLE} = \arg\max_\theta \ln L(\theta)$$
 
 LU-разложение: $A = LU$. Алгоритм: $u_{ij} = a_{ij} - \sum_{k=1}^{i-1} l_{ik}u_{kj}$, $l_{ji} = (a_{ji} - \sum_{k=1}^{i-1} l_{jk}u_{ki})/u_{ii}$. Метод Гаусса эквивалентен LU. Обратный ход: $x_i = (b_i - \sum_{j=i+1}^n u_{ij}x_j)/u_{ii}$.
 
-Нормы: Векторные: $\|x\|_1 = \sum |x_i|$, $\|x\|_2 = \sqrt{\sum x_i^2}$, $\|x\|_\infty = \max |x_i|$. Матричные: $\|A\|_1 = \max_j \sum_i |a_{ij}|$, $\|A\|_\infty = \max_i \sum_j |a_{ij}|$, $\|A\|_2 = \sqrt{\lambda_{\max}(A^T A)}$. Свойство: $\|Ax\| \le \|A\|\|x\|$.
+Нормы: Векторные: 
+
+$\|x\|_1 = \sum |x_i|$, $\|x\|_2 = \sqrt{\sum x_i^2}$, $\|x\|_\infty = \max |x_i|$. Матричные: $\|A\|_1 = \max_j \sum_i |a_{ij}|$, $\|A\|_\infty = \max_i \sum_j |a_{ij}|$, $\|A\|_2 = \sqrt{\lambda_{\max}(A^T A)}$. Свойство: $\|Ax\| \le \|A\|\|x\|$.
 
 Итерационные методы СЛАУ: $x^{(k+1)} = B x^{(k)} + g$. Разложение $A = M - N$, $B = M^{-1}N$. Сходимость $\iff \rho(B) < 1$ или $\|B\| < 1$. Метод Якоби: $M=D$. Зейделя: $M=D+L$.
 
