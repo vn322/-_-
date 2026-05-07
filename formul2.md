@@ -169,7 +169,9 @@ $\sum a_n$ абсолютно сходится $\iff \sum |a_n| < \infty$. Ус�
 
 Выборка $\vec{x}=(x_1,\dots,x_n)$. Эмпирическая ФР: $F_n^*(x) = \frac{1}{n} \sum \mathbb{I}_{(-\infty, x)}(x_i)$. Гистограмма/полигон — графическое представление частот. Выборочные моменты: $\bar{x} = \frac{1}{n}\sum x_i, s^2 = \frac{1}{n-1}\sum (x_i-\bar{x})^2$.
 
-Оценки $\hat{\theta}$. Свойства: несмещенность ($\mathbb{E}\hat{\theta}=\theta$), эффективность (мин. дисперсия), согласованность ($\hat{\theta} \xrightarrow{P} \theta$). Функция правдоподобия: $L(\theta) = \prod f(x_i;\theta)$. ММП: $\hat{\theta}_{MLE} = \arg\max_\theta \ln L(\theta)$.
+Оценки $\hat{\theta}$. Свойства: несмещенность ($\mathbb{E}\hat{\theta}=\theta$), эффективность (мин. дисперсия), согласованность ($\hat{\theta} \xrightarrow{P} \theta$). Функция правдоподобия: $L(\theta) = \prod f(x_i;\theta)$. ММП: 
+
+$\hat{\theta}_{MLE} = \arg\max_\theta \ln L(\theta)$.
 
 Проверка гипотез: $H_0$ vs $H_1$. Ошибка 1-го рода: $\alpha = \mathbb{P}(\text{откл. } H_0 | H_0)$. Ошибка 2-го рода: $\beta$. Мощность: $1-\beta$. Критерий Пирсона: $\chi^2 = \sum \frac{(n_j - n p_j)^2}{n p_j} \sim \chi^2_{k-r-1}$. Отклоняем $H_0$, если $\chi^2_{набл} > \chi^2_{\alpha, df}$.
 
