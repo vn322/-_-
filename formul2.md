@@ -1,4 +1,4 @@
-### 1. Математический анализ
+1. Математический анализ
 
 $\lim_{x \to x_0} f(x) = A \iff \forall \varepsilon > 0 \ \exists \delta > 0 : 0 < |x - x_0| < \delta \Rightarrow |f(x) - A| < \varepsilon$.
 $x, x_0, A \in \mathbb{R}, \varepsilon, \delta \in \mathbb{R}_+$. Предел функции в точке.
