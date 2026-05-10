@@ -262,7 +262,8 @@ $\alpha = \mathbb{P}(\text{откл. } H_0 | H_0)$. $1-\beta = \mathbb{P}(\text{
 
 ### 7. Численные методы
 
-$\|\vec{x}\|_1 = \sum |x_i|, \|\vec{x}\|_2 = \sqrt{\sum x_i^2}, \|\vec{x}\|_\infty = \max |x_i|$. $\|A\| = \sup_{\|\vec{x}\|=1} \|A\vec{x}\|$.
+$$\|\vec{x}\|_1 = \sum |x_i|, \|\vec{x}\|_2 = \sqrt{\sum x_i^2}, \|\vec{x}\|_\infty = \max |x_i|$. $\|A\| = \sup_{\|\vec{x}\|=1} \|A\vec{x}\|$$
+
 Нормы векторов и матриц. Согласованность: $\|A\vec{x}\| \le \|A\|\|\vec{x}\|$.
 
 
@@ -270,7 +271,8 @@ $A = LU$. Прямой ход: приведение к треугольному 
 Метод Гаусса и LU-разложение. $L$ — нижнетреугольная, $U$ — верхнетреугольная.
 
 
-$\vec{x}^{(k+1)} = B\vec{x}^{(k)} + \vec{c}$. Сходимость $\iff \rho(B) < 1$.
+$$\vec{x}^{(k+1)} = B\vec{x}^{(k)} + \vec{c}$. Сходимость $\iff \rho(B) < 1$$
+
 Итерационные методы СЛАУ. $\rho$ — спектральный радиус.
 
 
@@ -282,7 +284,8 @@ $y_{n+1} = y_n + h f(x_n, y_n)$. $y_{n+1} = y_n + \frac{h}{6}(k_1+2k_2+2k_3+k_4)
 Методы Эйлера и Рунге-Кутта 4-го порядка. $h$ — шаг, $k_i$ — промежуточные наклоны.
 
 
-$\vec{e}_k = \vec{v}_k - \sum_{j=1}^{k-1} \frac{\langle \vec{v}_k, \vec{e}_j \rangle}{\langle \vec{e}_j, \vec{e}_j \rangle} \vec{e}_j$. $\sum |\langle f, \varphi_n \rangle|^2 \le \|f\|^2$.
+$\vec{e}_k = \vec{v}_k - \sum_{j=1}^{k-1} \frac{\langle \vec{v}_k, \vec{e}_j \rangle}{\langle \vec{e}_j, \vec{e}_j \rangle} \vec{e}_j$. $\sum |\langle f, \varphi_n \rangle|^2 \le \|f\|^2$
+
 Процесс Грама-Шмидта и неравенство Бесселя. $\{\varphi_n\}$ — ортогональная система.
 
 
@@ -292,7 +295,7 @@ $\sum |\langle f, \varphi_n \rangle|^2 = \|f\|^2$ при полноте сист
 
 $x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$ 
 
-$\|\varphi(x)-\varphi(y)\| \le q\|x-y\|, q<1 \Rightarrow x^*=\varphi(x^*)$
+$$\|\varphi(x)-\varphi(y)\| \le q\|x-y\|, q<1 \Rightarrow x^*=\varphi(x^*)$$
 
 Метод Ньютона и принцип сжимающего отображения. $\varphi$ — итерационная функция.
 
