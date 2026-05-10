@@ -85,6 +85,7 @@ $A\vec{x}=\vec{b}$. $\text{rank}(A) = \text{rank}(\bar{A})$.
 
 
 $\vec{x} = \vec{x}_0 + \sum_{i=1}^k c_i \vec{v}_i, \, k=n-\text{rank}(A)$.
+
 Общее решение СЛАУ. $\vec{x}_0$ — частное, $\{\vec{v}_i\}$ — фундаментальная система решений (ФСР).
 
 
