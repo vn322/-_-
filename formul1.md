@@ -284,7 +284,7 @@ $y_{n+1} = y_n + h f(x_n, y_n)$. $y_{n+1} = y_n + \frac{h}{6}(k_1+2k_2+2k_3+k_4)
 Методы Эйлера и Рунге-Кутта 4-го порядка. $h$ — шаг, $k_i$ — промежуточные наклоны.
 
 
-$\vec{e}_k = \vec{v}_k - \sum_{j=1}^{k-1} \frac{\langle \vec{v}_k, \vec{e}_j \rangle}{\langle \vec{e}_j, \vec{e}_j \rangle} \vec{e}_j$. $\sum |\langle f, \varphi_n \rangle|^2 \le \|f\|^2$
+$$\vec{e}_k = \vec{v}_k - \sum_{j=1}^{k-1} \frac{\langle \vec{v}_k, \vec{e}_j \rangle}{\langle \vec{e}_j, \vec{e}_j \rangle} \vec{e}_j \sum |\langle f, \varphi_n \rangle|^2 \le \|f\|^2$$
 
 Процесс Грама-Шмидта и неравенство Бесселя. $\{\varphi_n\}$ — ортогональная система.
 
