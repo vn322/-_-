@@ -297,7 +297,7 @@ $x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$
 
 $$\|\varphi(x)-\varphi(y)\| \le q\|x-y\|, q<1 $$
 
-$$\Rightarrow x^{*}=\varphi(x^*)$$
+$$\Rightarrow x^{*}=\varphi(x^{*})$$
 
 Метод Ньютона и принцип сжимающего отображения. $\varphi$ — итерационная функция.
 
