@@ -1,4 +1,4 @@
-### 1. Математический анализ
+Математический анализ
 
 $\lim_{x \to x_0} f(x) = A \iff \forall \varepsilon > 0 \, \exists \delta > 0 : 0 < |x - x_0| < \delta \Rightarrow |f(x) - A| < \varepsilon$.
 $x, x_0, A, \varepsilon, \delta \in \mathbb{R}$ — аргумент, точка сходимости, предел, произвольно малые числа. $f: D \to \mathbb{R}$ — функция.
@@ -66,7 +66,7 @@ $\sum |a_n| < \infty \Rightarrow \sum a_n$ сходится. $c_n = \sum_{k=0}^n
 
 ---
 
-### 2. Алгебра и аналитическая геометрия
+Алгебра и аналитическая геометрия
 
 $\frac{x-x_0}{l} = \frac{y-y_0}{m} = \frac{z-z_0}{n}$.
 Каноническое уравнение прямой. $(x_0,y_0,z_0)$ — точка, $\vec{s}=(l,m,n)$ — направляющий вектор.
@@ -99,7 +99,7 @@ $A(\alpha \vec{u} + \beta \vec{v}) = \alpha A\vec{u} + \beta A\vec{v}$.
 
 ---
 
-### 3. Дифференциальные уравнения
+Дифференциальные уравнения
 
 $y' = f(x,y), \, y(x_0)=y_0$.
 Задача Коши. $\exists!$ решение, если $f, \partial f/\partial y$ непрерывны в окрестности $(x_0,y_0)$.
@@ -151,7 +151,7 @@ $\frac{du}{dt} = Au, \, u(0)=u_0 \Rightarrow u(t)=T(t)u_0$. $T(t+s)=T(t)T(s), \l
 
 ---
 
-### 4. Комплексный анализ
+Комплексный анализ
 
 $f(z)=u+iv$. $\frac{\partial u}{\partial x} = \frac{\partial v}{\partial y}, \frac{\partial u}{\partial y} = -\frac{\partial v}{\partial x}$.
 Условия Коши-Римана. $f$ дифференцируема $\Leftrightarrow$ выполнены условия.
@@ -175,7 +175,7 @@ $f(z) = \sum_{n=-\infty}^\infty c_n (z-z_0)^n$. $\text{Res}(f,z_0) = c_{-1}$.
 
 ---
 
-### 5. Дискретная математика
+Дискретная математика
 
 $C_n^k = \frac{n!}{k!(n-k)!}, A_n^k = \frac{n!}{(n-k)!}, P_n = n!$.
 Сочетания, размещения, перестановки. $n,k \in \mathbb{N}$.
@@ -203,7 +203,7 @@ $a_n + c_1 a_{n-1} + \dots + c_k a_{n-k} = 0 \Rightarrow \lambda^k + c_1 \lambda
 
 ---
 
-### 6. Теория вероятностей и математическая статистика
+Теория вероятностей и математическая статистика
 
 $\mathbb{P}: \mathcal{F} \to [0,1], \mathbb{P}(\Omega)=1, \mathbb{P}(\cup A_i) = \sum \mathbb{P}(A_i)$.
 Аксиомы вероятности. $\mathcal{F}$ — $\sigma$-алгебра событий.
@@ -260,7 +260,7 @@ $\alpha = \mathbb{P}(\text{откл. } H_0 | H_0)$. $1-\beta = \mathbb{P}(\text{
 
 ---
 
-### 7. Численные методы
+Численные методы
 
 $$\|\vec{x}\|_1 = \sum |x_i|, \|\vec{x}\|_2 = \sqrt{\sum x_i^2}, \|\vec{x}\|_\infty = \max |x_i|$. $\|A\| = \sup_{\|\vec{x}\|=1} \|A\vec{x}\|$$
 
@@ -308,7 +308,7 @@ $$\nabla f(\vec{x}^*) = 0$. $\vec{x}_{k+1} = \vec{x}_k - \alpha_k \nabla f(\vec{
 
 ---
 
-### 8. Функциональный анализ и методы оптимизации
+Функциональный анализ и методы оптимизации
 
 $\sup_n \|T_n x\| < \infty \, \forall x \in X \Rightarrow \sup_n \|T_n\| < \infty$.
 Теорема Банаха-Штейнгауза. $T_n \in \mathcal{L}(X,Y)$, $X$ — банахово.
