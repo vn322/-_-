@@ -249,7 +249,8 @@ $F_n^*(x) = \frac{1}{n}\sum_{i=1}^n \mathbb{I}_{(-\infty, x)}(x_i)$. $\bar{x} = 
 Эмпирическая функция распределения и выборочные моменты.
 
 
-$L(\theta) = \prod_{i=1}^n f(x_i;\theta)$. $\hat{\theta}_{MLE} = \arg\max_\theta L(\theta)$.
+$$L(\theta) = \prod_{i=1}^n f(x_i;\theta)$. $\hat{\theta}_{MLE} = \arg\max_\theta L(\theta)$$
+
 Функция правдоподобия и оценки максимального правдоподобия.
 
 
@@ -289,7 +290,9 @@ $\sum |\langle f, \varphi_n \rangle|^2 = \|f\|^2$ при полноте сист
 Равенство Парсеваля.
 
 
-$$x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$. $\|\varphi(x)-\varphi(y)\| \le q\|x-y\|, q<1 \Rightarrow x^*=\varphi(x^*)$$
+$x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$ 
+
+$\|\varphi(x)-\varphi(y)\| \le q\|x-y\|, q<1 \Rightarrow x^*=\varphi(x^*)$
 
 Метод Ньютона и принцип сжимающего отображения. $\varphi$ — итерационная функция.
 
