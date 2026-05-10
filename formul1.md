@@ -292,7 +292,8 @@ $x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}$. $\|\varphi(x)-\varphi(y)\| \le q\|x-y\
 Метод Ньютона и принцип сжимающего отображения. $\varphi$ — итерационная функция.
 
 
-$\nabla f(\vec{x}^*) = 0$. $\vec{x}_{k+1} = \vec{x}_k - \alpha_k \nabla f(\vec{x}_k)$.
+$$\nabla f(\vec{x}^*) = 0$. $\vec{x}_{k+1} = \vec{x}_k - \alpha_k \nabla f(\vec{x}_k)$$
+
 Стационарные точки и метод градиентного спуска. $\alpha_k$ — шаг спуска.
 
 
